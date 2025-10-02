@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='box_template'>
+    <pose>0 0 0.15 0 0 0</pose>
+    <static>false</static>
+    <link name='link'>
+      <inertial>
+        <mass>0.5</mass>
+      </inertial>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 0.3</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>0.3 0.3 0.3</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

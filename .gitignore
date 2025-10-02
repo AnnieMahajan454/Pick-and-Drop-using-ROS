@@ -1,0 +1,9 @@
+# ROS / Catkin ignores
+build/
+devel/
+*.pyc
+*.swp
+*.swo
+*.log
+*.bak
+*.gz
