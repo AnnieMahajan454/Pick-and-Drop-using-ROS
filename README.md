@@ -3,8 +3,6 @@
 A ROS-based simulation for picking and dropping boxes using TurtleBot3 in Gazebo.
 
 ---
-## Install Dependencies
-
 
 <summary>Installation steps</summary>
 
